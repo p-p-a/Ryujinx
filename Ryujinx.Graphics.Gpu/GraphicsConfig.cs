@@ -55,11 +55,11 @@ namespace Ryujinx.Graphics.Gpu
         /// <summary>
         /// Enables or disables the shader cache.
         /// </summary>
-        public static bool EnableShaderCache;
+        public static bool EnableShaderCache = true;
 
         /// <summary>
         /// Enables or disables shader SPIR-V compilation.
         /// </summary>
-        public static bool EnableSpirvCompilation;
+        public static bool EnableSpirvCompilation = true;
     }
 }
